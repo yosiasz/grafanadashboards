@@ -763,7 +763,7 @@
             "root_selector": "",
             "source": "inline",
             "type": "json",
-            "url": "https://samples.openweathermap.org/data/2.5/weather?q=London&appid=960629b1c9c00d3d175b3b91ecec4299",
+            "url": "",
             "url_options": {
               "data": "",
               "method": "GET"
