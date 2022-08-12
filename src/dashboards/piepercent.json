@@ -58,7 +58,9 @@
         "id": 2,
         "options": {
           "displayLabels": [
-            "percent"
+            "percent",
+            "value",
+            "name"
           ],
           "legend": {
             "displayMode": "list",
@@ -159,19 +161,20 @@
               },
               "indexByName": {},
               "renameByName": {
-                "tot_a": "A",
-                "tot_b": "B"
+                "tot_a": "Fat Cows",
+                "tot_b": "Skinny Cows"
               }
             }
           },
           {
             "id": "calculateField",
             "options": {
+              "alias": "Difference",
               "binary": {
-                "left": "A",
+                "left": "Fat Cows",
                 "operator": "-",
                 "reducer": "sum",
-                "right": "B"
+                "right": "Skinny Cows"
               },
               "mode": "binary",
               "reduce": {
@@ -202,6 +205,6 @@
     "timezone": "",
     "title": "MoDoMoDo",
     "uid": "STTpHcm4k",
-    "version": 1,
+    "version": 4,
     "weekStart": ""
   }
