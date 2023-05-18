@@ -1,2 +1,4 @@
-## SVG related docs found at
-    http://snapsvg.io/
+Project migrated to 
+
+
+# https://github.com/yosiasz/grafana-helper
